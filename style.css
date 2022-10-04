@@ -1,0 +1,80 @@
+/* Write some CSS below */
+h1 /* style.css */
+ {
+  font-family: 'Alkalami', serif;;
+  font-style: italic ;
+  text-align: center;
+  font-weight: bold;
+  color: #EA83B0 ;
+  font-size: 60px;
+text-decoration: none}
+
+p {
+  font-family:'Open Sans', sans-serif;
+  text-align: center;
+  font-style: italic;
+color: #FF006F ;text-decoration: bold;
+font-size: 18px}
+
+h2 {font-family: 'Montserrat', sans-serif;
+  color: #371725 ;
+  text-align: center;
+  font-weight: none;
+  text-decoration: none;
+  transition: 0s;
+  font-size: 30px
+}
+h4 {font-family: 'Montserrat', sans-serif;
+  color: #371725 ;
+  text-align: center;
+  font-weight: none;
+  text-decoration: none;
+  transition: 0s;
+  font-size: 50px
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  align-items: center;
+}
+
+
+h3: {font-family:initial;text-align: center;
+  font-style: italic;
+  color: #DB6C2D
+;font-size: 20px
+}
+
+.card {
+  background-color:#F7BAD4 ;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  text-align: center;
+}
+.titre{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('data:image/jpeg;base64,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')colors#FFFFFF;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  text-align: center
+  
+  border: 5px #F7BAD4;
+}
+
+h5: {font-family: 'Montserrat', sans-serif;
+  color: #371725 ;
+  text-align: center;
+  font-weight: none;
+  text-decoration: none;
+  transition: 0s;
+  font-size: 40px;}
+
+  .stories{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 16 px;
+  }
+
+
